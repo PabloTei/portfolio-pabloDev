@@ -30,7 +30,7 @@ const childVariants = {
 
 const Hero = () => {
   return (
-    <div className="pb-4 lg:mb-36">
+    <div className="pb-4 pt-8 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
@@ -93,7 +93,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               download
-              className="bg-stone-300 rounded-xl p-4 text-sm text-stone-800 mb-10 font-semibold flex justify-center gap-2 items-center hover:bg-white hover:duration-300 ease-in-out"
+              className=" bg-stone-300 rounded-xl p-4 text-sm text-stone-800 font-semibold flex justify-center gap-2 items-center hover:bg-white hover:duration-300 ease-in-out"
             >
               Descargar CV
               <MdDownloading className="text-xl" />
