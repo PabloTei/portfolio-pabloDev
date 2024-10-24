@@ -71,14 +71,17 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
+                className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
               >
                 <FaLinkedin className="text-4xl" />
               </a>
+
               <a
                 href="https://github.com/PabloTei/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
+                className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
               >
                 <FaGithubSquare className="text-4xl" />
               </a>

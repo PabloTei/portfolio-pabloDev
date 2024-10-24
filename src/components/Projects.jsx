@@ -30,7 +30,6 @@ const Projects = () => {
                   alt={project.title}
                   className="rounded opacity-70 hover:opacity-100 transition-opacity duration-500 ease-in-out"
                 />
-                {/* Puedes agregar un overlay de brillo si prefieres algo más visual */}
               </div>
             </motion.div>
 

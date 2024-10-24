@@ -27,6 +27,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
+            className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
           >
             <FaLinkedin className="text-2xl" />
           </a>
@@ -35,6 +36,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
+            className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
           >
             <FaGithubSquare className="text-2xl" />
           </a>
