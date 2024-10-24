@@ -13,23 +13,27 @@ const Projects = () => {
       >
         Proyectos
       </motion.h2>
-      <div>
+      <div className="flex flex-col gap-12">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="flex flex-wrap gap-12 lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                width={250}
-                height={250}
-                alt=""
-                className="mb-6 rounded"
-              />
+              <div className="relative">
+                <img
+                  src={project.image}
+                  width={400}
+                  height={400}
+                  alt={project.title}
+                  className="rounded opacity-70 hover:opacity-100 transition-opacity duration-500 ease-in-out"
+                />
+                {/* Puedes agregar un overlay de brillo si prefieres algo más visual */}
+              </div>
             </motion.div>
+
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
@@ -41,7 +45,7 @@ const Projects = () => {
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tecth, index) => (
                   <span
-                    className="rounded bg-stone-900 p-2 text-sm font-medium textstone300"
+                    className="rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
                     key={index}
                   >
                     {tecth}

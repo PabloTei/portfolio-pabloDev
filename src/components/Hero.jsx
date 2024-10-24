@@ -37,7 +37,7 @@ const Hero = () => {
             <motion.img
               src="https://res.cloudinary.com/depifliz3/image/upload/v1729802044/ATEP-CONSULTING/PORTFOLIO/altumcode-7m79J2LWzTI-unsplash_cldskr.jpg"
               alt="Pablo Teijeiro"
-              className="border border-stone-900 rounded-3xl"
+              className="border border-stone-900 rounded-3xl brightness-75"
               width={420}
               height={420}
               initial={{ x: 100, opacity: 0 }}
