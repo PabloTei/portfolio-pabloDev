@@ -35,11 +35,11 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
             <motion.img
-              src="https://res.cloudinary.com/depifliz3/image/upload/v1712914577/ATEP-CONSULTING/PORTFOLIO/1694771804366_w8ppmw.jpg"
+              src="https://res.cloudinary.com/depifliz3/image/upload/v1729802044/ATEP-CONSULTING/PORTFOLIO/altumcode-7m79J2LWzTI-unsplash_cldskr.jpg"
               alt="Pablo Teijeiro"
-              className="border border-stone-900 rounded-3xl grayscale"
-              width={400}
-              height={400}
+              className="border border-stone-900 rounded-3xl"
+              width={420}
+              height={420}
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.5 }}
@@ -70,6 +70,7 @@ const Hero = () => {
                 href="https://linkedin.com/in/pablo-teijeiro-lopez-55a483191"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedin className="text-4xl" />
               </a>
@@ -77,6 +78,7 @@ const Hero = () => {
                 href="https://github.com/PabloTei/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <FaGithubSquare className="text-4xl" />
               </a>

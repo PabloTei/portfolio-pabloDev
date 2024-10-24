@@ -17,7 +17,7 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8">
-        <Header />
+        {/* <Header /> */}
         <Hero />
         <Technologies />
         <Projects />

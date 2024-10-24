@@ -26,6 +26,7 @@ const Contact = () => {
             href="https://linkedin.com/in/pablo-teijeiro-lopez-55a483191"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
             <FaLinkedin className="text-2xl" />
           </a>
@@ -33,6 +34,7 @@ const Contact = () => {
             href="https://github.com/PabloTei/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub"
           >
             <FaGithubSquare className="text-2xl" />
           </a>
@@ -45,7 +47,11 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href={`mailto:${CONTACT.email}`} className="border-b">
+        <a
+          href={`mailto:${CONTACT.email}`}
+          className="border-b"
+          aria-label="Email"
+        >
           {CONTACT.email}
         </a>
       </div>

@@ -22,7 +22,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div id="tecnologias" className="pb-24">
+    <div id="tecnologias" className="pb-8">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -39,27 +39,27 @@ const Technologies = () => {
       >
         <div className="flex flex-col justify-center items-center gap-2">
           <SiReact className="text-5xl text-cyan-400" />
-          <span>React</span>
+          {/* <span>React</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiAngular className="text-5xl text-red-600" />
-          <span>Angular</span>
+          {/* <span>Angular</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiTypescript className="text-5xl text-blue-500" />
-          <span>TypeScript</span>
+          {/* <span>TypeScript</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiNodedotjs className="text-5xl text-green-500" />
-          <span>NodeJS</span>
+          {/* <span>NodeJS</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiTailwindcss className="text-5xl text-sky-400" />
-          <span>Tailwind</span>
+          {/* <span>Tailwind</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiGit className="text-5xl text-orange-600" />
-          <span>Git</span>
+          {/* <span>Git</span> */}
         </div>
       </motion.div>
     </div>
