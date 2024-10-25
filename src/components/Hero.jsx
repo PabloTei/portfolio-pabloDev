@@ -104,6 +104,12 @@ const Hero = () => {
               Descargar CV
               <MdDownloading className="text-xl" />
             </motion.a>
+            <motion.span
+              variants={childVariants}
+              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text lg:text-6xl tracking-tight text-transparent mt-8"
+            >
+              + 2 años experiencia
+            </motion.span>
           </motion.div>
         </div>
       </div>
