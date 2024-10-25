@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     technologies: ["HTML", "SCSS", "TypeScript", "Angular", "Git", "Tailwind"],
   },
   {
-    year: "Junio 2023 - Julio 2024",
+    year: "Junio 2023 - Agosto 2024",
     role: "Front-end Developer",
     company: "Odeene Ingeniería",
     description: `Desarrollo Front-end en Angular para una institución bancaria, abarcando tanto plataformas web como móviles, aplicando una metodología SCRUM y priorizando una filosofía de diseño responsivo.`,
