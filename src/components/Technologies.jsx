@@ -38,27 +38,27 @@ const Technologies = () => {
         className="flex flex-wrap items-center justify-center gap-16"
       >
         <div className="flex flex-col justify-center items-center gap-2">
-          <SiReact className="text-6xl text-cyan-400" />
+          <SiReact className="text-5xl lg:text-7xl text-cyan-400" />
           {/* <span>React</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <SiAngular className="text-6xl text-red-600" />
+          <SiAngular className="text-5xl lg:text-7xl text-red-600" />
           {/* <span>Angular</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <SiTypescript className="text-6xl text-blue-500" />
+          <SiTypescript className="text-5xl lg:text-7xl text-blue-500" />
           {/* <span>TypeScript</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <SiNodedotjs className="text-6xl text-green-500" />
+          <SiNodedotjs className="text-5xl lg:text-7xl text-green-500" />
           {/* <span>NodeJS</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <SiTailwindcss className="text-6xl text-sky-400" />
+          <SiTailwindcss className="text-5xl lg:text-7xl text-sky-400" />
           {/* <span>Tailwind</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <SiGit className="text-6xl text-orange-600" />
+          <SiGit className="text-5xl lg:text-7xl text-orange-600" />
           {/* <span>Git</span> */}
         </div>
       </motion.div>
