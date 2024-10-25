@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdDownloading } from "react-icons/md";
-import cvPdf from "../assets/CV_Pablo_Teijeiro.pdf";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -106,7 +105,7 @@ const Hero = () => {
             </motion.a>
             <motion.span
               variants={childVariants}
-              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text lg:text-6xl tracking-tight text-transparent mt-8"
+              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-4xl lg:text-6xl tracking-tight text-transparent mt-8"
             >
               + 2 años experiencia
             </motion.span>
