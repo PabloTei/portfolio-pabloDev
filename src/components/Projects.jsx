@@ -1,6 +1,14 @@
 import React from "react";
 import { PROJECTS } from "../constants/data";
 import { motion } from "framer-motion";
+import { FaYoutube, FaGithub } from "react-icons/fa";
+import { GrTest } from "react-icons/gr";
+
+const iconMap = {
+  YouTube: <FaYoutube />,
+  Github: <FaGithub />,
+  Test: <GrTest />,
+};
 
 const Projects = () => {
   return (
@@ -26,7 +34,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   width={400}
-                  height={400}
+                  height={600}
                   alt={project.title}
                   className="rounded opacity-70 hover:opacity-100 transition-opacity duration-500 ease-in-out"
                 />
@@ -49,6 +57,25 @@ const Projects = () => {
                   >
                     {tecth}
                   </span>
+                ))}
+              </div>
+              <div className="flex gap-4 mt-4">
+                {project.links.map((link, linkIndex) => (
+                  <a
+                    key={linkIndex}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`text-2xl transition-colors ${
+                      link.icon === "Github"
+                        ? "hover:text-violet-800"
+                        : link.icon === "Test"
+                        ? "hover:text-green-500"
+                        : "hover:text-red-600"
+                    }`}
+                  >
+                    {iconMap[link.icon]}
+                  </a>
                 ))}
               </div>
             </motion.div>

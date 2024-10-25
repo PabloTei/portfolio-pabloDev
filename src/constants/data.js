@@ -27,6 +27,10 @@ export const PROJECTS = [
     description:
       "Aplicación de Página Múltiple (MPA) desarrollada para una consultora especializada en SAP. La MPA actúa como el principal punto de contacto entre la empresa y sus clientes.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
+    links: [
+      { icon: "Test", url: "https://atep-consulting.vercel.app" },
+      { icon: "Github", url: "https://github.com/PabloTei/ATEP_CONSULTING" },
+    ],
   },
   {
     title: "NeoVet",
@@ -43,6 +47,16 @@ export const PROJECTS = [
       "ExpressJS",
       "MongoDB",
     ],
+    links: [
+      {
+        icon: "YouTube",
+        url: "https://www.youtube.com/watch?v=g9PVrqeNQyc&t=186s",
+      },
+      {
+        icon: "Github",
+        url: "https://github.com/PabloTei/_NeoVet_FrontEnd_ProyectoFinal",
+      },
+    ],
   },
   {
     title: "CMS Motorbikes",
@@ -51,6 +65,13 @@ export const PROJECTS = [
     description:
       "CMS para empresas de venta de motos, donde pueden, entrando en su perfil, crear, leer, editar y eliminar (CRUD) sus propios anuncios, para que el público pueda visualizarlos.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
+    links: [
+      {
+        icon: "YouTube",
+        url: "https://www.youtube.com/watch?v=Qb_rc20cOBE&t=75s",
+      },
+      { icon: "Github", url: "https://github.com/PabloTei/CMS-MOTORBIKES" },
+    ],
   },
   {
     title: "Zelda BOTW",
@@ -59,11 +80,18 @@ export const PROJECTS = [
     description:
       "Página web desarrollada como práctica para el manejo de fetch de datos sobre el juego 'Zelda BOTW'. La página permite obtener y mostrar información relevante sobre el juego, como personajes, armas, y más.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
+    links: [
+      { icon: "YouTube", url: "https://www.youtube.com/watch?v=hYFDchJJN2w" },
+      {
+        icon: "Github",
+        url: "https://github.com/PabloTei/React-Project-ZeldaBOTW",
+      },
+      { icon: "Test", url: "https://react-project-zelda-botw.vercel.app" },
+    ],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+34 647 74 87 05 ",
   email: "pteijeirolopez@gmail.com",
 };
