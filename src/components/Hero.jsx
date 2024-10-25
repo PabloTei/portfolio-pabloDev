@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdDownloading } from "react-icons/md";
+import cvPdf from "../assets/CV_Pablo_Teijeiro.pdf";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -94,7 +95,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/resume.pdf"
+              href={cvPdf}
               target="_blank"
               rel="noopener noreferrer"
               download
