@@ -30,7 +30,7 @@ const childVariants = {
 
 const Hero = () => {
   return (
-    <div className="pb-4 pt-8 lg:mb-36">
+    <div className="pb-4 pt-8 lg:mb-8">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
@@ -103,12 +103,6 @@ const Hero = () => {
               Descargar CV
               <MdDownloading className="text-xl" />
             </motion.a>
-            <motion.span
-              variants={childVariants}
-              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-4xl lg:text-6xl tracking-tight text-transparent mt-8"
-            >
-              + 2 años experiencia
-            </motion.span>
           </motion.div>
         </div>
       </div>
