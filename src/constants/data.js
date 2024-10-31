@@ -23,13 +23,13 @@ export const PROJECTS = [
   {
     title: "ATEP Consulting",
     image:
-      "https://res.cloudinary.com/depifliz3/image/upload/v1713022495/ATEP-CONSULTING/PORTFOLIO/atep-consulting_w78edy.png",
+      "https://res.cloudinary.com/depifliz3/image/upload/v1730418571/Captura_de_pantalla_2024-11-01_a_las_0.48.11_ocegsn.png",
     description:
       "Aplicación de Página Múltiple (MPA) desarrollada para una consultora especializada en SAP. La MPA actúa como el principal punto de contacto entre la empresa y sus clientes.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    technologies: ["HTML", "CSS", "Tailwind", "JavaScript", "React"],
     links: [
-      { icon: "Test", url: "https://atep-consulting.vercel.app" },
-      { icon: "Github", url: "https://github.com/PabloTei/ATEP_CONSULTING" },
+      { icon: "Test", url: "https://landing-atep.vercel.app" },
+      { icon: "Github", url: "https://github.com/PabloTei/portfolio-pabloDev" },
     ],
   },
   {

@@ -68,11 +68,18 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className={`text-2xl transition-colors ${
                       link.icon === "Github"
-                        ? "hover:text-blue-950"
+                        ? "hover:text-blue-500"
                         : link.icon === "Test"
                         ? "hover:text-green-500"
-                        : "hover:text-red-600"
+                        : "hover:text-red-500"
                     }`}
+                    aria-label={
+                      link.icon === "Github"
+                        ? "Ver el repositorio en GitHub"
+                        : link.icon === "Test"
+                        ? "Realizar pruebas"
+                        : "Ir al enlace"
+                    }
                   >
                     {iconMap[link.icon]}
                   </a>
