@@ -1,8 +1,8 @@
 import React from "react";
-import { CONTACT } from "../constants/data";
-import { motion } from "framer-motion";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { CONTACT } from "../constants/data";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (

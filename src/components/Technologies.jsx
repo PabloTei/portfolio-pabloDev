@@ -7,19 +7,6 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiGit } from "react-icons/si";
 import { motion } from "framer-motion";
 
-const iconVariants = (duration) => ({
-  initial: { y: -10 },
-  animate: {
-    y: [10, -10],
-    transition: {
-      duration: duration,
-      ease: "linear",
-      repeat: Infinity,
-      repeatType: "reverse",
-    },
-  },
-});
-
 const Technologies = () => {
   return (
     <div id="tecnologias" className="pb-8">
@@ -39,27 +26,21 @@ const Technologies = () => {
       >
         <div className="flex flex-col justify-center items-center gap-2">
           <SiReact className="text-5xl lg:text-7xl text-cyan-400" />
-          {/* <span>React</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiAngular className="text-5xl lg:text-7xl text-red-600" />
-          {/* <span>Angular</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiTypescript className="text-5xl lg:text-7xl text-blue-500" />
-          {/* <span>TypeScript</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiNodedotjs className="text-5xl lg:text-7xl text-green-500" />
-          {/* <span>NodeJS</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiTailwindcss className="text-5xl lg:text-7xl text-sky-400" />
-          {/* <span>Tailwind</span> */}
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <SiGit className="text-5xl lg:text-7xl text-orange-600" />
-          {/* <span>Git</span> */}
         </div>
       </motion.div>
     </div>

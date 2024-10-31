@@ -1,8 +1,8 @@
 import React from "react";
-import { PROJECTS } from "../constants/data";
-import { motion } from "framer-motion";
 import { FaYoutube, FaGithub } from "react-icons/fa";
 import { GrTest } from "react-icons/gr";
+import { PROJECTS } from "../constants/data";
+import { motion } from "framer-motion";
 
 const iconMap = {
   YouTube: <FaYoutube />,

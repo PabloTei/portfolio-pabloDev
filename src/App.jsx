@@ -2,7 +2,6 @@ import React from "react";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import GitHubActivity from "./components/GitHubActivity";
-import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
@@ -18,7 +17,6 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8">
-        {/* <Header /> */}
         <Hero />
         <GitHubActivity />
         <Technologies />
