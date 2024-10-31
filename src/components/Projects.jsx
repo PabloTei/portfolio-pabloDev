@@ -68,7 +68,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className={`text-2xl transition-colors ${
                       link.icon === "Github"
-                        ? "hover:text-violet-800"
+                        ? "hover:text-blue-950"
                         : link.icon === "Test"
                         ? "hover:text-green-500"
                         : "hover:text-red-600"
