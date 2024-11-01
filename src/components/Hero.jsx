@@ -5,6 +5,7 @@ import { MdDownloading, MdOutlineMail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { HERO_CONTENT, CONTACT } from "../constants/data";
 import { motion } from "framer-motion";
+import DownloadButton from "../ui/DownloadButton/DownloadButton";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -109,8 +110,7 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            <motion.a
-              variants={childVariants}
+            {/* <motion.a
               href="/documents/CV_Pablo_Teijeiro.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -119,7 +119,10 @@ const Hero = () => {
             >
               Descargar CV
               <MdDownloading className="text-xl" />
-            </motion.a>
+            </motion.a> */}
+            <motion.div variants={childVariants}>
+              <DownloadButton />
+            </motion.div>
           </motion.div>
         </div>
       </div>
