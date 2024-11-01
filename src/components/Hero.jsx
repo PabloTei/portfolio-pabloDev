@@ -5,7 +5,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { HERO_CONTENT, CONTACT } from "../constants/data";
 import { motion } from "framer-motion";
-import DownloadButton from "../ui/DownloadButton/DownloadButton";
+import DownloadButton from "../ui/DownloadButton";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
