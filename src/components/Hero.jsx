@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
-import { MdDownloading, MdOutlineMail } from "react-icons/md";
+import { MdOutlineMail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { HERO_CONTENT, CONTACT } from "../constants/data";
 import { motion } from "framer-motion";
