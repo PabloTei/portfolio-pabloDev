@@ -28,7 +28,7 @@ const technologies = [
   },
   {
     icon: <SiTailwindcss className="text-5xl lg:text-6xl text-sky-400" />,
-    name: "Tailwind",
+    name: "Tailwind CSS",
   },
   {
     icon: <SiGit className="text-5xl lg:text-6xl text-orange-600" />,

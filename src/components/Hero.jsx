@@ -1,8 +1,9 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { MdDownloading } from "react-icons/md";
-import { HERO_CONTENT } from "../constants/data";
+import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { MdDownloading, MdOutlineMail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
+import { HERO_CONTENT, CONTACT } from "../constants/data";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -73,7 +74,7 @@ const Hero = () => {
                 aria-label="LinkedIn"
                 className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
               >
-                <FaLinkedin className="text-4xl" />
+                <FaLinkedinIn className="text-4xl" />
               </a>
 
               <a
@@ -83,7 +84,23 @@ const Hero = () => {
                 aria-label="GitHub"
                 className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
               >
-                <FaGithubSquare className="text-4xl" />
+                <AiFillGithub className="text-4xl" />
+              </a>
+              <a
+                href="https://wa.me/34647748705"
+                aria-label="Whatsapp"
+                className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp className="text-4xl" />
+              </a>
+              <a
+                href={`mailto:${CONTACT.email}`}
+                aria-label="Email"
+                className="transition-transform duration-300 hover:brightness-125 hover:scale-105"
+              >
+                <MdOutlineMail className="text-4xl" />
               </a>
             </motion.div>
             <motion.p

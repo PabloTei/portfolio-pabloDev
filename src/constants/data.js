@@ -6,7 +6,14 @@ export const EXPERIENCES = [
     role: "Front-end Developer",
     company: "Xpander by Teknia",
     description: `Desarrollo Front-end de una aplicación innovadora llamada Alize, relacionada con blockchain. Utilizamos Angular para construir la interfaz de usuario desde cero, creando una experiencia visualmente atractiva y altamente funcional. Enfocado en desarrollar una aplicación intuitiva y eficiente que aproveche al máximo las capacidades de la tecnología blockchain.`,
-    technologies: ["HTML", "SCSS", "TypeScript", "Angular", "Git", "Tailwind"],
+    technologies: [
+      "HTML",
+      "SCSS",
+      "TypeScript",
+      "Angular",
+      "Git",
+      "Tailwind CSS",
+    ],
   },
   {
     year: "Junio 2023 - Agosto 2024",
@@ -23,7 +30,7 @@ export const PROJECTS = [
     image: "/images/atep.png",
     description:
       "Landing-page (SPA) desarrollada para una consultora especializada en SAP. La SPA actúa como el principal punto de contacto entre la empresa y sus clientes.",
-    technologies: ["HTML", "CSS", "Tailwind", "JavaScript", "React"],
+    technologies: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React"],
     links: [
       { icon: "Github", url: "https://github.com/PabloTei/portfolio-pabloDev" },
       { icon: "Test", url: "https://landing-atep.vercel.app" },
