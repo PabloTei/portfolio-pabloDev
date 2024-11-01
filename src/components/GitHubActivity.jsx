@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
+import { motion } from "framer-motion";
 
 const stats = [
   {
@@ -24,7 +25,12 @@ const GitHubActivity = () => {
   return (
     <section className="pt-8 xl:pt-0">
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
+        <motion.div
+          className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none"
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 2.5 }}
+        >
           {stats.map((item, index) => {
             return (
               <div
@@ -47,7 +53,7 @@ const GitHubActivity = () => {
               </div>
             );
           })}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

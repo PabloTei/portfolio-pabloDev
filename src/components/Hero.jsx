@@ -110,16 +110,6 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            {/* <motion.a
-              href="/documents/CV_Pablo_Teijeiro.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-              className=" bg-stone-300 rounded-xl p-4 text-sm text-stone-800 font-semibold flex justify-center gap-2 items-center hover:bg-white hover:duration-300 ease-in-out"
-            >
-              Descargar CV
-              <MdDownloading className="text-xl" />
-            </motion.a> */}
             <motion.div variants={childVariants}>
               <DownloadButton />
             </motion.div>
