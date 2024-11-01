@@ -1,13 +1,12 @@
 import React from "react";
-import { FaYoutube, FaGithub } from "react-icons/fa";
-import { GrTest } from "react-icons/gr";
+import { FaYoutube, FaGithub, FaLaptopCode } from "react-icons/fa";
 import { PROJECTS } from "../constants/data";
 import { motion } from "framer-motion";
 
 const iconMap = {
   YouTube: <FaYoutube />,
   Github: <FaGithub />,
-  Test: <GrTest />,
+  Test: <FaLaptopCode />,
 };
 
 const Projects = () => {

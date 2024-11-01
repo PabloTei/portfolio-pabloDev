@@ -1,10 +1,12 @@
 import React from "react";
-import { SiReact } from "react-icons/si";
-import { SiAngular } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
-import { SiNodedotjs } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiGit } from "react-icons/si";
+import {
+  SiReact,
+  SiAngular,
+  SiTypescript,
+  SiNodedotjs,
+  SiTailwindcss,
+  SiGit,
+} from "react-icons/si";
 import { motion } from "framer-motion";
 
 const technologies = [
@@ -17,11 +19,11 @@ const technologies = [
     name: "Angular",
   },
   {
-    icon: <SiTypescript className="text-5xl lg:text-6xl text-blue-500" />,
+    icon: <SiTypescript className="text-5xl lg:text-6xl text-blue-600" />,
     name: "TypeScript",
   },
   {
-    icon: <SiNodedotjs className="text-5xl lg:text-6xl text-green-500" />,
+    icon: <SiNodedotjs className="text-5xl lg:text-6xl text-green-600" />,
     name: "NodeJS",
   },
   {

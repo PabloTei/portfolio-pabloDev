@@ -35,7 +35,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
             <motion.img
-              src="https://res.cloudinary.com/depifliz3/image/upload/v1729802044/ATEP-CONSULTING/PORTFOLIO/altumcode-7m79J2LWzTI-unsplash_cldskr.jpg"
+              src="/images/hero.jpg"
               alt="Pablo Teijeiro"
               className="border border-stone-900 rounded-3xl brightness-75"
               width={420}
@@ -94,7 +94,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/CV_Pablo_Teijeiro.pdf"
+              href="/documents/CV_Pablo_Teijeiro.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
