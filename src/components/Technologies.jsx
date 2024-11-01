@@ -7,6 +7,33 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiGit } from "react-icons/si";
 import { motion } from "framer-motion";
 
+const technologies = [
+  {
+    icon: <SiReact className="text-5xl lg:text-6xl text-cyan-400" />,
+    name: "ReactJS",
+  },
+  {
+    icon: <SiAngular className="text-5xl lg:text-6xl text-red-600" />,
+    name: "Angular",
+  },
+  {
+    icon: <SiTypescript className="text-5xl lg:text-6xl text-blue-500" />,
+    name: "TypeScript",
+  },
+  {
+    icon: <SiNodedotjs className="text-5xl lg:text-6xl text-green-500" />,
+    name: "NodeJS",
+  },
+  {
+    icon: <SiTailwindcss className="text-5xl lg:text-6xl text-sky-400" />,
+    name: "Tailwind",
+  },
+  {
+    icon: <SiGit className="text-5xl lg:text-6xl text-orange-600" />,
+    name: "Git",
+  },
+];
+
 const Technologies = () => {
   return (
     <div id="tecnologias" className="pb-8">
@@ -24,24 +51,17 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-16"
       >
-        <div className="flex flex-col justify-center items-center gap-2">
-          <SiReact className="text-5xl lg:text-7xl text-cyan-400" />
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2">
-          <SiAngular className="text-5xl lg:text-7xl text-red-600" />
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2">
-          <SiTypescript className="text-5xl lg:text-7xl text-blue-500" />
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2">
-          <SiNodedotjs className="text-5xl lg:text-7xl text-green-500" />
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2">
-          <SiTailwindcss className="text-5xl lg:text-7xl text-sky-400" />
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2">
-          <SiGit className="text-5xl lg:text-7xl text-orange-600" />
-        </div>
+        {technologies.map((tech) => (
+          <div
+            key={tech.name}
+            className="relative flex flex-col justify-center items-center gap-2 group"
+          >
+            {tech.icon}
+            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 mb-6 sm:mb-10 w-max rounded bg-neutral-800 text-white text-sm p-1 text-center opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+              {tech.name}
+            </div>
+          </div>
+        ))}
       </motion.div>
     </div>
   );
