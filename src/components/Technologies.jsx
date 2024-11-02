@@ -6,10 +6,29 @@ import {
   SiNodedotjs,
   SiTailwindcss,
   SiGit,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const technologies = [
+  // {
+  //   icon: <SiHtml5 className="text-5xl lg:text-6xl text-orange-500" />,
+  //   name: "HTML5",
+  // },
+  // {
+  //   icon: <SiCss3 className="text-5xl lg:text-6xl text-blue-500" />,
+  //   name: "CSS3",
+  // },
+  // {
+  //   icon: <SiJavascript className="text-5xl lg:text-6xl text-yellow-400" />,
+  //   name: "JavaScript",
+  // },
+  {
+    icon: <SiTypescript className="text-5xl lg:text-6xl text-blue-600" />,
+    name: "TypeScript",
+  },
   {
     icon: <SiReact className="text-5xl lg:text-6xl text-cyan-400" />,
     name: "ReactJS",
@@ -17,10 +36,6 @@ const technologies = [
   {
     icon: <SiAngular className="text-5xl lg:text-6xl text-red-600" />,
     name: "Angular",
-  },
-  {
-    icon: <SiTypescript className="text-5xl lg:text-6xl text-blue-600" />,
-    name: "TypeScript",
   },
   {
     icon: <SiNodedotjs className="text-5xl lg:text-6xl text-green-600" />,
